@@ -1,0 +1,17 @@
+[package]
+name = "trumpet"
+version = "0.0.1"
+authors = ["David Villegas <dville00@gmail.com>"]
+
+description = "HDFS/YARN native bindings for Rust"
+
+homepage = "https://github.com/senscale/trumpet"
+repository = "https://github.com/senscale/trumpet"
+
+readme = "README.md"
+
+keywords = ["hadoop", "hdfs", "yarn", "bindings"]
+
+license = "Apache-2.0"
+
+[dependencies]
