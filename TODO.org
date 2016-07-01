@@ -1,0 +1,10 @@
+#+TITLE: Trumpet TO-DO items
+#+TODO: TODO | DONE
+
+
+* Tools
+
+** TODO Add getops parameters to generate-proto.sh
+   - source
+   - dest
+   - copy proto files?

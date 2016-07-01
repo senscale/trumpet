@@ -15,3 +15,5 @@ keywords = ["hadoop", "hdfs", "yarn", "bindings"]
 license = "Apache-2.0"
 
 [dependencies]
+
+protobuf = "1.0.22"

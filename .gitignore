@@ -1,2 +1,4 @@
+proto
+src/proto
 target
 Cargo.lock
