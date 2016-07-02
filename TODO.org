@@ -2,6 +2,96 @@
 #+TODO: TODO | DONE
 
 
+* HDFS
+
+** TODO ClientNamenodeProtocol [0/83]
+
+  - [ ] getBlockLocations
+  - [ ] getServerDefaults
+  - [ ] create
+  - [ ] append
+  - [ ] setReplication
+  - [ ] setStoragePolicy
+  - [ ] getStoragePolicies
+  - [ ] setPermission
+  - [ ] setOwner
+  - [ ] abandonBlock
+  - [ ] addBlock
+  - [ ] getAdditionalDatanode
+  - [ ] complete
+  - [ ] reportBadBlocks
+  - [ ] concat
+  - [ ] truncate
+  - [ ] rename
+  - [ ] rename2
+  - [ ] delete
+  - [ ] mkdirs
+  - [ ] getListing
+  - [ ] renewLease
+  - [ ] recoverLease
+  - [ ] getFsStats
+  - [ ] getDatanodeReport
+  - [ ] getDatanodeStorageReport
+  - [ ] getPreferredBlockSize
+  - [ ] setSafeMode
+  - [ ] saveNamespace
+  - [ ] rollEdits
+  - [ ] restoreFailedStorage
+  - [ ] refreshNodes
+  - [ ] finalizeUpgrade
+  - [ ] rollingUpgrade
+  - [ ] listCorruptFileBlocks
+  - [ ] metaSave
+  - [ ] getFileInfo
+  - [ ] addCacheDirective
+  - [ ] modifyCacheDirective
+  - [ ] removeCacheDirective
+  - [ ] listCacheDirectives
+  - [ ] addCachePool
+  - [ ] modifyCachePool
+  - [ ] removeCachePool
+  - [ ] listCachePools
+  - [ ] getFileLinkInfo
+  - [ ] getContentSummary
+  - [ ] setQuota
+  - [ ] fsync
+  - [ ] setTimes
+  - [ ] createSymlink
+  - [ ] getLinkTarget
+  - [ ] updateBlockForPipeline
+  - [ ] updatePipeline
+  - [ ] getDelegationToken
+  - [ ] renewDelegationToken
+  - [ ] cancelDelegationToken
+  - [ ] setBalancerBandwidth
+  - [ ] getDataEncryptionKey
+  - [ ] createSnapshot
+  - [ ] renameSnapshot
+  - [ ] allowSnapshot
+  - [ ] disallowSnapshot
+  - [ ] getSnapshottableDirListing
+  - [ ] deleteSnapshot
+  - [ ] getSnapshotDiffReport
+  - [ ] isFileClosed
+  - [ ] modifyAclEntries
+  - [ ] removeAclEntries
+  - [ ] removeDefaultAcl
+  - [ ] removeAcl
+  - [ ] setAcl
+  - [ ] getAclStatus
+  - [ ] setXAttr
+  - [ ] getXAttrs
+  - [ ] listXAttrs
+  - [ ] removeXAttr
+  - [ ] checkAccess
+  - [ ] createEncryptionZone
+  - [ ] listEncryptionZones
+  - [ ] getEZForPath
+  - [ ] getCurrentEditLogTxid
+  - [ ] getEditsFromTxid
+
+
+
 * Tools
 
 ** TODO Add getops parameters to generate-proto.sh

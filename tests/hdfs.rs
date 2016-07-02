@@ -1,6 +1,14 @@
 extern crate trumpet;
 
+use trumpet::common::HadoopConf;
+use trumpet::hdfs::Hdfs;
+
 #[test]
-fn test_foo() {
-  assert_eq!(trumpet::hdfs::foo(), false);
+fn get_fs_stats() {
+
+  let conf = HadoopConf::new();
+  let hdfs = Hdfs::new(&conf);
+
+  let stats = hdfs.get_fs_stats();
+
 }
